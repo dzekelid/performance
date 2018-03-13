@@ -33,8 +33,6 @@ paths:
           description: OK
       tags:
       - sla
-      - api
-      - v1
       - tests
       - slatest
       - reports
