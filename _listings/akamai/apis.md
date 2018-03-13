@@ -20,8 +20,8 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-02-25"
-modified: "2018-02-25"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/performance/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Performance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/performance/master/_listings/akamai/send-email-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/performance/master/_listings/akamai/sla-api-v1-tests-slatestid-reports-performance-start,end-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
