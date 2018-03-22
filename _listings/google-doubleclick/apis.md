@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Google APIs
 - Advertising
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/performance/master/_listings/google-doubleclick/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/google-doubleclick/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Doubleclick API
@@ -25,7 +25,7 @@ apis:
   tags: Performance
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/performance/master/_listings/google-doubleclick/performancereport-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/google-doubleclick/performancereport-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
