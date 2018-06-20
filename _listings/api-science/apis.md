@@ -6,10 +6,10 @@ description: Traditional monitoring services were designed long before APIs beca
   APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Performance
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/api-science/apis.md
 specificationVersion: "0.14"
 apis:
@@ -17,7 +17,7 @@ apis:
   x-api-slug: api-science
   description: Performance Report
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https://///monitors/{id}/performance
   tags: Performance
   properties:
@@ -31,7 +31,7 @@ apis:
     core to modern applications. API Science is designed specifically for monitoring
     APIs. Sure, we understand REST, JSON, OAuth, XML. No problem.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-science-logo.png
-  humanURL: http://www.apiscience.com/
+  humanURL: http://apiscience.com
   baseURL: https:///
   tags: Performance
   properties:
@@ -54,6 +54,8 @@ x-common:
   url: https://www.apiscience.com/terms
 - type: x-twitter
   url: https://twitter.com/APIScience
+- type: x-website
+  url: http://apiscience.com
 - type: x-website
   url: http://www.apiscience.com/
 include: []
