@@ -1,13 +1,12 @@
----
 swagger: "2.0"
 x-collection-name: Xignite
 x-complete: 1
 info:
-  title: Xignite IPOs
-  description: this-web-service-provides-ipo-data-
+  title: Xignite VWAP
+  description: provides-delayed-and-historical-volumeweightedaverage-price-vwap-information-
   version: 1.0.0
-host: ipos.xignite.com
-basePath: xIPOs.json/XigniteIPOs
+host: www.xignite.com
+basePath: xVWAP.json/XigniteVWAP
 schemes:
 - http
 produces:
@@ -33,4 +32,3 @@ paths:
       - Market Data
       - IPO
       - Performance
----

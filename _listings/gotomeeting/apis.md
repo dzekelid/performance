@@ -7,49 +7,46 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotome
 x-kinRank: "7"
 x-alexaRank: "7422"
 tags: Performance
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/gotomeeting/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Go To Webinar Get performance for all webinar sessions
-  x-api-slug: go-to-webinar
+- name: Go To Webinar - Get performance for all webinar sessions
+  x-api-slug: organizersorganizerkeywebinarswebinarkeyperformance-get
   description: Gets performance details for all sessions of a specific webinar.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2W/rest//organizers/{organizerKey}/webinars/{webinarKey}/performance
-  tags: Organizers,OrganizerKey,Webinars,WebinarKey,Performance
+  baseURL: https://api.citrixonline.com//G2W/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/gotomeeting/organizersorganizerkeywebinarswebinarkeyperformance-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/gotomeeting/organizersorganizerkeywebinarswebinarkeyperformance-get-openapi.md
-- name: Go To Webinar Get session performance
-  x-api-slug: go-to-webinar
+- name: Go To Webinar - Get session performance
+  x-api-slug: organizersorganizerkeywebinarswebinarkeysessionssessionkeyperformance-get
   description: Get performance details for a session. For technical reasons, this
     call cannot be executed from this documentation. Please use the curl command to
     execute it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
   humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2W/rest//organizers/{organizerKey}/webinars/{webinarKey}/sessions/{sessionKey}/performance
-  tags: Organizers,OrganizerKey,Webinars,WebinarKey,Sessions,SessionKey,Performance
+  baseURL: https://api.citrixonline.com//G2W/rest
+  tags: Office, Meetings, Collaboration, Video Conferencing, Video Conferencing, SaaS,
+    Technology, Enterprise, API Provider, Meetings, Profiles, Conferences, Relative
+    Data, Service API, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/gotomeeting/organizersorganizerkeywebinarswebinarkeysessionssessionkeyperformance-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/gotomeeting/organizersorganizerkeywebinarswebinarkeysessionssessionkeyperformance-get-openapi.md
-- name: Go To Webinar
-  x-api-slug: go-to-webinar
-  description: Citrix enables business mobility through the secure delivery of apps
-    and data to any device on any network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg
-  humanURL: https://citrixonline.com
-  baseURL: https://api.citrixonline.com//G2W/rest
-  tags: Performance
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/gotomeeting/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.url.shortener.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://gotomeeting.stack.network
 - type: x-base
   url: https://api.citrixonline.com
 - type: x-blog

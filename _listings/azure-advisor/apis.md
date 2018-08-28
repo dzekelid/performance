@@ -1,33 +1,24 @@
 ---
 name: Azure Advisor
+x-slug: azure-advisor
 description: Azure Advisor is a personalized recommendation engine that helps you
   follow Azure best practices. It analyzes your Azure resource configuration and usage
   telemetry, then provides recommendations that can reduce costs and improve the performance,
   security, and reliability of your applications.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/improve-what-matters.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Performance
-- Microsoft
-- Best Practices
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/performance/master/_listings/azure-advisor/apis.yaml
+x-alexaRank: "0"
+tags: Performance
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/azure-advisor/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Azure Advisor API
-  description: Azure Advisor is a personalized recommendation engine that helps you
-    follow Azure best practices
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/improve-what-matters.png
-  humanURL: ""
-  baseURL: ://management.azure.com//
-  tags: Performance
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/performance/master/_listings/azure-advisor/subscriptions-subscriptionid-providers-microsoft-advisor-suppressions-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aylien.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.advisor.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/advisor/
 - type: x-pricing

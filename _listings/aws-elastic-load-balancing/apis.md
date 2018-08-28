@@ -1,45 +1,33 @@
 ---
 name: AWS Elastic Load Balancing
+x-slug: aws-elastic-load-balancing
 description: Elastic Load Balancing automatically distributes incoming application
   traffic across multiple Amazon EC2 instances. It enables you to achieve fault tolerance
   in your applications, seamlessly providing the required amount of load balancing
-  capacity needed to route application traffic.nElastic Load Balancing offers two
-  types of load balancers that both feature high availability, automatic scaling,
-  and robust security. These include thenbsp;Classic Load Balancernbsp;that routes
-  traffic based on either application or network level information, and thenbsp;Application
-  Load Balancernbsp;that routes traffic based on advanced application level information
-  that includes the content of the request. The Classic Load Balancer is ideal for
-  simple load balancing of traffic across multiple EC2 instances, while the Application
-  Load Balancer is ideal for applications needing advanced routing capabilities, microservices,
-  and container-based architectures. Application Load Balancer offers ability to route
-  traffic to multiple services or load balance across multiple ports on the same EC2
-  instance.
+  capacity needed to route application traffic.Elastic Load Balancing offers two types
+  of load balancers that both feature high availability, automatic scaling, and robust
+  security. These include theClassic Load Balancerthat routes traffic based on either
+  application or network level information, and theApplication Load Balancerthat routes
+  traffic based on advanced application level information that includes the content
+  of the request. The Classic Load Balancer is ideal for simple load balancing of
+  traffic across multiple EC2 instances, while the Application Load Balancer is ideal
+  for applications needing advanced routing capabilities, microservices, and container-based
+  architectures. Application Load Balancer offers ability to route traffic to multiple
+  services or load balance across multiple ports on the same EC2 instance.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Servers
-- Performance
-- Compute
-- Availability
-- Amazon Web Services
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/performance/master/_listings/aws-elastic-load-balancing/apis.yaml
+x-alexaRank: "0"
+tags: Performance
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/aws-elastic-load-balancing/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AWS Elastic Load Balancing API
-  description: Elastic Load Balancing automatically distributes incoming application
-    traffic across multiple Amazon EC2 instances
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
-  humanURL: ""
-  baseURL: :///
-  tags: Performance
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/performance/master/_listings/aws-elastic-load-balancing/action-setsubnets-get.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://aws.elastic.beanstalk.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.elastic.load.balancing.stack.network
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
 - type: x-documentation

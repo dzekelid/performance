@@ -1,28 +1,46 @@
 ---
 name: New Relic
-description: New Relic offers SaaS Software Analytics Platform that offers Application
-  Performance Management and Real User Monitoring for Cloud and Data Center deployed
-  web applications implemented in Ruby, Java, .NET, Python, PHP, Node.js. New Relic
-  also offers mobile monitoring solutions for iOS and Android applications.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+x-slug: new-relic
+description: New Relic???s digital intelligence platform lets developers, ops, and
+  tech teams measure and monitor the performance of their applications and infrastructure.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Performance
-- Monitoring
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/performance/master/_listings/new-relic/apis.yaml
+x-alexaRank: "10322"
+tags: Performance
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/performance/master/_listings/new-relic/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://netlicensing.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://new.relic.stack.network
 - type: x-blog
   url: https://blog.newrelic.com/
 - type: x-blog-rss
   url: https://blog.newrelic.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/new-relic
 - type: x-developer
   url: https://rpm.newrelic.com/api/explore/
+- type: x-email
+  url: billing@newrelic.com
+- type: x-email
+  url: resume@newrelic.com
+- type: x-email
+  url: PR@newrelic.com
+- type: x-email
+  url: copyright@newrelic.com
+- type: x-email
+  url: dataprivacy@newrelic.com
+- type: x-email
+  url: PersonalDataRequest@newrelic.com
+- type: x-email
+  url: support@newrelic.com
+- type: x-email
+  url: compliance@newrelic.com
 - type: x-github
   url: https://github.com/newrelic
 - type: x-twitter
